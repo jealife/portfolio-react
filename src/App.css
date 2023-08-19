@@ -12,5 +12,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
   gap: 3rem;
+  padding: 1rem;
 }
 

@@ -32,3 +32,11 @@ aside{
     border-radius: 20px;
     padding:2rem;
 }
+@media (max-width: 768px){
+    aside{
+        position: relative;
+    }
+    #grid-main{
+        flex-direction: column;
+    }
+}

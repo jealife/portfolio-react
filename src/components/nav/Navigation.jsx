@@ -35,6 +35,9 @@ class Navigation extends Component{
               <NavLink className="nav-link" to="/#Work">
                 Réalisations
               </NavLink>
+              <NavLink className="btn-link btn-menu" to="/#Contact">
+                Contact me
+              </NavLink>
             </div>
               <NavLink className="btn-link" to="/#Contact">
                 Contact me

@@ -53,6 +53,23 @@ nav{
     gap: 1rem;
     
 }
+.btn-menu{
+    display:none
+}
 /* .active{
     color: #ff8e38;
 } */
+@media (max-width: 768px){
+    header{
+        padding: 0px;
+    }
+    nav{
+        border-radius: 0px;
+    }
+    .menu{
+        display:none;
+    }
+    .btn-link{
+        display: none;
+    }
+}

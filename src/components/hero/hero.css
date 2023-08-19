@@ -58,3 +58,10 @@ border: 1px solid #ffffff20;
     color: #ecf0f3;
 
 }
+
+
+@media (max-width: 768px){
+    .hero-portfolio{
+        margin-top: 0px;
+    }
+}
