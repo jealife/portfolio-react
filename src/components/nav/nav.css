@@ -65,6 +65,8 @@ nav{
     }
     nav{
         border-radius: 0px;
+        padding: 2.25rem 1.25rem;
+        margin-top: 0px;
     }
     .menu{
         display:none;
