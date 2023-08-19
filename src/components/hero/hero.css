@@ -60,12 +60,14 @@ border: 1px solid #ffffff20;
 
 }
 
-
 @media (max-width: 768px){
     .hero-portfolio{
         margin-top: 0px;
     }
     .card-hero img{
-        width: 80%;
+        width: 50%;
+    }
+    .text-hero-portfolio h1{
+        font-size: 2.5rem;
     }
 }
