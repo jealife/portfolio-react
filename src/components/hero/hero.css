@@ -37,7 +37,7 @@ border: 1px solid #ffffff20;
 }
 
 .text-hero-portfolio h1 {
-    font-size: .9em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -64,5 +64,8 @@ border: 1px solid #ffffff20;
 @media (max-width: 768px){
     .hero-portfolio{
         margin-top: 0px;
+    }
+    .card-hero img{
+        width: 80%;
     }
 }
