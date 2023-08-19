@@ -39,10 +39,11 @@ aside{
         width: 100%;
         height: max-content;
         padding: 0px;
-        min-width: 100vw;
+        display: flex;
     }
     #grid-main{
         flex-direction: column;
         padding: 1rem;
+        gap:50px;
     }
 }
