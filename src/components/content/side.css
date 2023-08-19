@@ -1,0 +1,51 @@
+.side{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 24px;
+    width:100%;
+    background-color: #111928;
+    border-radius: 20px;
+    padding: 2rem 1.54rem;
+    height:850vh;
+    height:85dvh;
+    text-align: center;
+    justify-content: space-around;
+}
+.side a{
+    text-decoration:none;
+    color:#fff;
+    font-size: .6em;
+}
+.side > div{
+    width:100%;
+}
+.top-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.top-side span{
+    text-align: right;
+    font-size: .6em;
+    font-weight: 300;
+    
+}
+.top-side h2{
+    flex:2;
+    font-size: calc(4vmin + 14px);
+}
+.midle-side img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.midle-side {
+    display:flex;
+    gap:15px;
+    flex-direction: column;
+}
+.midle-side span{
+    font-size:.7em
+}

@@ -1,17 +1,14 @@
-import "./App.css";
-import Side from "./components/content/Side";
-import Hero from "./components/hero/Hero";
+import React from 'react'
+import Side from './Side'
+import './main.css'
 
 
-function App() {
-  return (
-    <div className="App">
-      <main className="main">
-          <Hero/>
-          {/* <Main/> */}
-          <section  id='grid-main'>
+
+function Main() {
+    return (
+        <section  id='grid-main'>
            <aside>
-                <Side />
+                <Side/>
            </aside>
             <section>
                 <div className='about-section' id="about">
@@ -28,9 +25,7 @@ function App() {
                 </div>
             </section>
         </section>
-      </main>
-    </div>
-  );
+    )
 }
 
-export default App;
+export default Main
