@@ -1,5 +1,6 @@
 
 .hero-portfolio {
+    font-size: calc(10px + 2vmin);
     margin-top: 1rem;
     width: 100%;
     max-width: 1300px;
@@ -53,7 +54,7 @@ border: 1px solid #ffffff20;
     border: 1px solid #ffffff6e;
 }
 .card-hero span{
-    font-size: .6em;
+    font-size: .7em;
     font-weight: 300;
     color: #ecf0f3;
 
