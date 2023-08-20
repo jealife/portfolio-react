@@ -30,7 +30,7 @@ class Navigation extends Component {
             <Link className="nav-link" activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
               Réalisations
             </Link>
-            <Link className="btn-link btn-menu" activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link className="btn-link btn-menu" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
               Contact
             </Link>
           </div>
