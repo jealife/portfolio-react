@@ -60,6 +60,12 @@ border: 1px solid #ffffff20;
 
 }
 
+.socilal{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
 @media (max-width: 768px){
     .hero-portfolio{
         margin-top: 0px;
@@ -69,5 +75,8 @@ border: 1px solid #ffffff20;
     }
     .text-hero-portfolio h1{
         font-size: 2.5rem;
+    }
+    .hero-container,.hero-portfolio{
+        border-radius: 0 0 24px 24px;
     }
 }

@@ -7,8 +7,7 @@
     background-color: #111928;
     border-radius: 20px;
     padding: 2rem 1.54rem;
-    height:850vh;
-    height:85dvh;
+    height: max-content;
     text-align: center;
     justify-content: space-around;
 }
@@ -32,7 +31,7 @@
 }
 .top-side h2{
     flex:1;
-    font-size: calc(4vmin + 16px);
+    font-size: 2.3rem;
 }
 .midle-side img{
     width: 100%;

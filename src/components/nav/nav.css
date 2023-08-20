@@ -29,6 +29,7 @@ nav{
     text-decoration: none;
     color: #fff;
     transition: all .3s ; 
+    cursor: pointer;
 }
 .logo{
     color: #ff6d00;
@@ -53,19 +54,35 @@ nav{
     gap: 1rem;
     
 }
+.menu .active{
+    color: #ff6d00;
+}
 .btn-menu{
     display:none
 }
 /* .active{
     color: #ff8e38;
 } */
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 1.5rem;
+}
 @media (max-width: 768px){
+    .menu-icon {
+        display: block;
+    }
+    
     header{
         padding: 0px;
     }
     nav{
         border-radius: 0px;
-        padding: 2.25rem 1.25rem;
+        padding: 1rem 1.25rem;
         margin-top: 0px;
     }
     .menu{
