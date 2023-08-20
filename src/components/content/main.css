@@ -31,7 +31,7 @@ aside{
     padding: 0 1rem 3rem;
     margin-bottom: 70px;
 }
-.section >div{
+.section >article{
     background-color: #111928;
     border-radius: 20px;
     padding:2rem;
@@ -51,10 +51,11 @@ aside{
     }
     #grid-main{
         flex-direction: column-reverse;
-        padding: 1rem 0;
+        padding: 2.5rem 0 1rem;
         gap:50px;
     }
     .section{
         padding: 0  1rem ;
+        width: 100vw;
     }
 }

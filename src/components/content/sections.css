@@ -1,0 +1,224 @@
+/* ----------------    --- SECTION ABOUT---   ----------------- */
+.section-about {
+    padding: 1rem .2rem;
+    width: 100%;
+    min-height: 86vh;
+    min-height: 86dvh;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about-left h3 {
+    font-size: .813rem;
+    color: #808080;
+    font-weight: 300;
+
+}
+
+.section-about-title {
+    color: #808080;
+    font-weight: 500;
+    margin-bottom: 4.25rem;
+}
+
+.section-about-left img {
+    margin-bottom: 2rem;
+    width: 160px;
+    clip-path: circle();
+    box-shadow: #9c9a9ab6 15px 15px 15px, #ececec -15px -15px 15px;
+}
+
+.content h2 {
+
+    color: #808080;
+}
+
+.skills {
+    padding: .25rem 0;
+    display: flex;
+    gap: 25px;
+}
+
+.skills i {
+    font-size: 35px;
+    color: #808080;
+    border-radius: 4px;
+    box-shadow: #c4c3c3b6 9px 9px 15px, #ececec -9px -9px 15px;
+}
+
+.section-about-right {
+    padding: 2.25rem 0;
+}
+
+.section-about-right p {
+    font-size: 1.2rem;
+    color: #808080;
+
+}
+
+/* times line */
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+.timeline {
+    color: #313e4f;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #ecf0f3;
+    box-shadow: #9c9a9ab6 9px 9px 15px, #ececec -9px -9px 15px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 5px;
+}
+
+/* Container around content */
+.container-tilmeline {
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.container-tilmeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    border-radius: 100%;
+    background-color: #ecf0f3;
+    box-shadow: #9c9a9ab6 11px 11px 15px, #ececec -12px -12px 15px;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgb(148, 143, 143);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+    border-radius: 45px;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -13px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    border-radius: 20px;
+    color: #181818;
+    background-color: #ecf0f3;
+    box-shadow: #9c9a9ab6 11px 11px 15px, #ececec -12px -12px 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .timeline::after {
+        left: 20px;
+    }
+
+    .content {
+        padding: 20px 18px;
+        border-radius: 10px;
+    }
+
+
+    .container-tilmeline {
+        width: 95%;
+        padding-left: 55px;
+        padding-right: 0px;
+    }
+
+
+
+    .container-tilmeline::before {
+        left: 50px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+
+    .left::after,
+    .right::after {
+        left: 8px;
+    }
+
+
+    .right {
+        left: 0%;
+    }
+}
+
+/* ========== responsive ======= */
+
+@media screen and (max-width: 600px){
+    .section-about { 
+        grid-template-columns: repeat(1, 1fr); 
+        text-align: center; 
+        width: 100%;
+    } 
+ 
+    .section-about-left, 
+    .section-contact { 
+        text-align: center; 
+        display: grid; 
+        place-items: center; 
+    } 
+ 
+    .section-about-right p { 
+        text-align: left; 
+    } 
+
+}

@@ -26,3 +26,21 @@ code {
   overflow-x: hidden !important;
   }
 }
+
+.container { 
+  max-width: 968px; 
+} 
+
+ 
+
+.grid { 
+  display: grid; 
+  gap: 1rem; 
+} 
+
+ 
+
+.section--big-title { 
+  text-align: center; 
+  font-size: 3rem; 
+}
