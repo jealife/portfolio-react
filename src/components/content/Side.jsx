@@ -10,7 +10,7 @@ function Side() {
                     <span>Developpeur Front End / Photographe</span>
                 </div>
                 <div className="midle-side">
-                    <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg" alt="Jean Guylane" height="210px" />
+                    <img src="https://jean-portfolio-six.vercel.app/assets/images/JEALIFE_Pictures.jpg" alt="Jean Guylane" height="210px" />
                     <span>jealife.pictures@gmail.com</span>
                     <span>  2023 Jealife, tous droits reservés </span>
                     <div className="social">
@@ -18,7 +18,7 @@ function Side() {
                     </div>
                 </div>
                 <div className="bottom-side">
-                    <a href="#" className="cv-download">CV</a>
+                    <a href="#" className="cv-download">Voir mon CV</a>
                 </div>
         </div>
     )
