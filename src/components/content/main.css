@@ -52,7 +52,7 @@ aside{
     #grid-main{
         flex-direction: column-reverse;
         padding: 2.5rem 0 1rem;
-        gap:50px;
+        gap: 0px;
     }
     .section{
         padding: 0  1rem ;
