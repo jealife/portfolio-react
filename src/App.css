@@ -12,9 +12,14 @@
   color: white;
   gap: 3rem;
 }
-
+h1{
+  font-size: 2.8rem;
+}
 @media (max-width: 768px){
   .main{
     gap:0px;
+  }
+  h1{
+    font-size: 2.2rem;
   }
 }

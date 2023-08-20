@@ -76,10 +76,6 @@
         width: 50%;
     }
 
-    .hero-container h1 {
-        font-size: 1.8rem;
-    }
-
     .hero-container,
     .hero-portfolio {
         border-radius: 0 0 24px 24px;
