@@ -1,6 +1,4 @@
-
 .hero-portfolio {
-    font-size: calc(10px + 2vmin);
     margin-top: 1rem;
     width: 100%;
     max-width: 1300px;
@@ -14,13 +12,13 @@
     text-align: center;
     background-image: url("https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg");
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     -moz-background-size: cover;
--webkit-background-size: cover;
--o-background-size: cover;
-background-position: top; 
-border: 1px solid #ffffff20;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: top;
+    border: 1px solid #ffffff20;
 
 
 }
@@ -36,48 +34,50 @@ border: 1px solid #ffffff20;
     flex-direction: column;
 }
 
-.text-hero-portfolio h1 {
-    font-size: 1em;
+.hero-container h1 {
+    font-size: 2.8em;
     text-transform: uppercase;
 }
 
-.card-hero{
+.card-hero {
     display: flex;
     gap: 8px;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 }
-.card-hero img{
-    width:180px;
+
+.card-hero img {
+    width: 180px;
     border-radius: 100%;
     object-fit: cover;
     border: 1px solid #ffffff6e;
 }
-.card-hero span{
+
+.card-hero span {
     font-size: .7em;
     font-weight: 300;
     color: #ecf0f3;
 
 }
 
-.socilal{
+.socilal {
     margin-top: .5rem;
     display: flex;
     gap: .5rem;
     justify-content: center;
 }
 
-@media (max-width: 768px){
-    .hero-portfolio{
+@media (max-width: 768px) {
+    .hero-portfolio {
         margin-top: 0px;
     }
-    .card-hero img{
+
+    .card-hero img {
         width: 50%;
     }
-    .text-hero-portfolio h1{
-        font-size: 2.5rem;
-    }
-    .hero-container,.hero-portfolio{
+
+    .hero-container,
+    .hero-portfolio {
         border-radius: 0 0 24px 24px;
     }
 }
