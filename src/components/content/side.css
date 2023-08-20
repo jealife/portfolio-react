@@ -56,6 +56,9 @@
     font-size:1rem;
     font-weight: 300;
 }
+.midle-side span:nth-child(2){
+    color: #858688;
+}
 @media (max-width: 768px){
     .side{
         height: max-content;
