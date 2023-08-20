@@ -56,7 +56,7 @@
     font-size:1rem;
     font-weight: 300;
 }
-.midle-side span:nth-child(2){
+.midle-side :nth-child(3){
     color: #858688;
 }
 @media (max-width: 768px){
