@@ -17,7 +17,7 @@ class Navigation extends Component {
               <box-icon name='code' color='#ff6d00' size="md" animation='spin'></box-icon>
             </Link>
           </div>
-          <div className={this.state.clicked ? "menu showMenu menu-mobile" : "menu"}>
+          <div className={this.state.clicked ? "menu showMenu " : "menu"}>
             <Link className="nav-link" activeClass="active" to="hero" spy={true} smooth={true} offset={-70} duration={500}>
               Accueil
             </Link>
@@ -34,7 +34,7 @@ class Navigation extends Component {
               Contact me
             </Link>
           </div>
-          <Link className="btn-link" to="/#Contact">
+          <Link className="btn-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
             Contact me
           </Link>
           <div className="menu-icon" onClick={this.handleClick}>

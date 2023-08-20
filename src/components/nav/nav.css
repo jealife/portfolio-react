@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7,12 +7,13 @@ header{
     top: 0;
     z-index: 10000;
 }
-nav{
+
+nav {
     margin-top: 1rem;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     max-width: 798px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -20,46 +21,56 @@ nav{
     border-radius: 50em;
     border: 1px solid #ffffff20;
     padding: .7rem 1.25rem;
-    box-shadow: 0px 10px 15px 5px  #00000042;
-    
-    
+    box-shadow: 0px 10px 15px 5px #00000042;
+
+
 }
 
-.menu .nav-link,.btn-link, .logo{
+.menu .nav-link,
+.btn-link,
+.logo {
     text-decoration: none;
     color: #fff;
-    transition: all .3s ; 
+    transition: all .3s;
     cursor: pointer;
 }
-.logo{
+
+.logo {
     color: #ff6d00;
     font-weight: 800;
 }
-.btn-link{
+
+.btn-link {
     padding: .5rem;
     border-radius: 50em;
     background-color: #ff6d00;
 
 }
-.btn-link:hover{
+
+.btn-link:hover {
     color: #fff;
     outline: .5px solid #ffffff;
-    box-shadow: 0px 5px 15px 5px  #ff6f00d7;
+    box-shadow: 0px 5px 15px 5px #ff6f00d7;
 }
-.menu .nav-link:hover{
+
+.menu .nav-link:hover {
     color: #ff6d00;
 }
-.menu{
+
+.menu {
     display: flex;
     gap: 1rem;
-    
+
 }
-.menu .active{
+
+.menu .active {
     color: #ff6d00;
 }
-.btn-menu{
-    display:none
+
+.btn-menu {
+    display: none
 }
+
 /* .active{
     color: #ff8e38;
 } */
@@ -72,44 +83,49 @@ nav{
     cursor: pointer;
     font-size: 1.5rem;
 }
-@media (max-width: 768px){
+
+@media (max-width: 768px) {
     .menu-icon {
         display: block;
     }
-    
-    header{
+
+    header {
         padding: 0px;
     }
-    nav{
+
+    nav {
         border-radius: 0px;
         padding: 1rem 1.25rem;
         margin-top: 0px;
     }
-    .menu{
-        display:none;
+
+    .btn-menu {
+        margin-top: 2rem;
+        display: block;
     }
-    .btn-link{
-        display: none;
-    }
-    .menu-mobile {
+
+    .menu {
+
         width: 200px;
         height: max-content;
         flex-direction: column;
         gap: 10px;
         align-items: flex-start;
         justify-content: flex-start;
-        padding: 15px 15px 15px 0 ;
+        padding: 15px 15px 15px 0;
         top: 100%;
         right: -300px;
         position: absolute;
-        border-radius: 0 0 0 24px ;
+        border-radius: 0 0 0 24px;
         border: 1px solid #a6b4c8de;
-        background-color: #ecf0f3a6;
+        background-color: #111928fd;
+        padding-left: 1rem;
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
         transition: all .5s ease-in-out;
     }
-    .showMenu{
+
+    .showMenu {
         right: 0;
     }
 }
