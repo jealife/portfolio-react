@@ -220,6 +220,9 @@
 /* ========== responsive ======= */
 
 @media screen and (max-width: 600px){
+    .btn-about .btn-link{
+        display: none;
+    }
     .section-about { 
         grid-template-columns: repeat(1, 1fr); 
         text-align: center; 
