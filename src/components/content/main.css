@@ -28,6 +28,7 @@ aside{
     grid-template-columns: 1, 1fr;
     gap: 50px;
     width: 100%;
+    padding: 0 1rem;
 }
 .section >div{
     background-color: #111928;
@@ -43,8 +44,8 @@ aside{
         display: flex;
     }
     #grid-main{
-        flex-direction: column;
-        padding: 1rem;
+        flex-direction: column-reverse;
+        padding: 1rem 0;
         gap:50px;
     }
 }

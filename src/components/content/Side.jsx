@@ -12,7 +12,7 @@ function Side() {
                 <div className="midle-side">
                     <img src="https://jean-portfolio-six.vercel.app/assets/images/JEALIFE_Pictures.jpg" alt="Jean Guylane" height="210px" />
                     <span>jealife.pictures@gmail.com</span>
-                    <span>  2023 Jealife, tous droits reservés </span>
+                    <span>  2023 ©Jealife, tous droits reservés </span>
                     <div className="social">
 
                     </div>
