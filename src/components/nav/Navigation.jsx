@@ -17,7 +17,7 @@ class Navigation extends Component {
               <box-icon name='code' color='#ff6d00' size="md" animation='spin'></box-icon>
             </Link>
           </div>
-          <div class={this.state.clicked ? "menu showMenu" : "menu"}>
+          <div className={this.state.clicked ? "menu showMenu" : "menu"}>
             <Link className="nav-link" activeClass="active" to="hero" spy={true} smooth={true} offset={-70} duration={500}>
               Accueil
             </Link>
