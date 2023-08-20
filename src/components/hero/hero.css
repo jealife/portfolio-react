@@ -36,7 +36,7 @@
 
 .hero-container h1 {
     font-size: 2.8em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 .card-hero {
@@ -74,6 +74,10 @@
 
     .card-hero img {
         width: 50%;
+    }
+
+    .hero-container h1 {
+        font-size: 1.8rem;
     }
 
     .hero-container,

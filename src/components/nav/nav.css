@@ -91,4 +91,25 @@ nav{
     .btn-link{
         display: none;
     }
+    .menu-mobile {
+        width: 200px;
+        height: max-content;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 15px 15px 15px 0 ;
+        top: 100%;
+        right: -300px;
+        position: absolute;
+        border-radius: 0 0 0 24px ;
+        border: 1px solid #a6b4c8de;
+        background-color: #ecf0f3a6;
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        transition: all .5s ease-in-out;
+    }
+    .showMenu{
+        right: 0;
+    }
 }
