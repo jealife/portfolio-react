@@ -35,7 +35,7 @@ class Navigation extends Component {
             </Link>
           </div>
           <Link className="btn-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-            Contact
+            Contactez moi
           </Link>
           <div className="menu-icon" onClick={this.handleClick}>
             <box-icon color='#ff6d00' size="md" name={this.state.clicked ? "x" : "menu"}></box-icon>
