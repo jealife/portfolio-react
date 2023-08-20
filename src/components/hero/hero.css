@@ -61,6 +61,7 @@ border: 1px solid #ffffff20;
 }
 
 .socilal{
+    margin-top: .5rem;
     display: flex;
     gap: .5rem;
     justify-content: center;

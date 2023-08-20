@@ -38,7 +38,7 @@ class Navigation extends Component {
             Contact me
           </Link>
           <div className="menu-icon" onClick={this.handleClick}>
-            <box-icon color='#ff6d00' name={this.state.clicked ? "x" : "menu"}></box-icon>
+            <box-icon color='#ff6d00' size="md" name={this.state.clicked ? "x" : "menu"}></box-icon>
           </div>
         </nav>
       </header>
