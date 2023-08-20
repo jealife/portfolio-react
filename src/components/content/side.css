@@ -10,6 +10,7 @@
     height: max-content;
     text-align: center;
     justify-content: space-around;
+    box-shadow: #c4c3c3b6 9px 9px 15px, #ececec -9px -9px 15px;
 }
 .side a{
     text-decoration:none;

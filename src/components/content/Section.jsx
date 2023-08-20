@@ -1,6 +1,8 @@
 import React from "react";
 import './main.css'
 import './sections.css'
+import { Link } from 'react-scroll';
+
 
 
 export function Section() {
@@ -15,10 +17,10 @@ export function Section() {
                             alt="Jean Guylane Memiaghe" />
 
                         <div class="skills ">
-                            <box-icon name='javascript'></box-icon>
-                            <box-icon name='html5'></box-icon>
-                            <box-icon name='css3'></box-icon>
-                            <box-icon name='php'></box-icon>
+                            <box-icon type='logo' color='#ff6d00' size="md" name='react'></box-icon>
+                            <box-icon type='logo' color='#ff6d00' size="md" name='html5'></box-icon>
+                            <box-icon type='logo' color='#ff6d00' size="md" name='css3'></box-icon>
+                            <box-icon type='logo' color='#ff6d00' size="md" name='php'></box-icon>
                         </div>
                     </div>
                     <div class="section-about-right">
@@ -28,6 +30,11 @@ export function Section() {
                             et ma passion pour la photographie pour créer des projets uniques. Contactez-moi pour discuter de
                             collaborations passionnantes.
                         </p>
+                        <div className="btn-about">
+                            <Link className="btn-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                                Contact
+                            </Link>
+                        </div>
                     </div>
 
                 </article>

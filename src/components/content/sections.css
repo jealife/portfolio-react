@@ -11,7 +11,7 @@
 
 .section-about-left h3 {
     font-size: .813rem;
-    color: #808080;
+    color: #ff6d00;
     font-weight: 300;
 
 }
@@ -38,9 +38,10 @@
     padding: .25rem 0;
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
-.skills i {
+.skills box-icon {
     font-size: 35px;
     color: #808080;
     border-radius: 4px;
@@ -49,6 +50,9 @@
 
 .section-about-right {
     padding: 2.25rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }
 
 .section-about-right p {
@@ -56,7 +60,19 @@
     color: #808080;
 
 }
-
+.btn-about .btn-link{
+    font-size: .8rem;
+    text-decoration:none;
+    padding: .5rem 1.5rem;
+    border-radius: 50em;
+    color: #fff;
+    background-color: #ff6d00;
+    transition:  .3s ;
+}
+.btn-about .btn-link:hover{
+    outline: .5px solid #ffffff;
+    box-shadow: 0px 5px 15px 5px #ff6f00d7;
+}
 /* times line */
 .timeline {
     position: relative;

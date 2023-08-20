@@ -31,11 +31,11 @@ class Navigation extends Component {
               Réalisations
             </Link>
             <Link className="btn-link btn-menu" activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-              Contact me
+              Contact
             </Link>
           </div>
           <Link className="btn-link" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
-            Contact me
+            Contact
           </Link>
           <div className="menu-icon" onClick={this.handleClick}>
             <box-icon color='#ff6d00' size="md" name={this.state.clicked ? "x" : "menu"}></box-icon>
