@@ -1,6 +1,6 @@
 import React from 'react'
 import './side.css'
-
+// import {imageSide} from '../../assets/images/JEALIFE_Pictures.jpg'
 
 function Side() {
     return (
@@ -10,7 +10,7 @@ function Side() {
                     <span>Developpeur Front End / Photographe</span>
                 </div>
                 <div className="midle-side">
-                    <img src="https://jean-portfolio-six.vercel.app/assets/images/JEALIFE_Pictures.jpg" alt="Jean Guylane" height="210px" />
+                    <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jean Guylane" height="210px" />
                     <span>jealife.pictures@gmail.com</span>
                     <span>  2023 ©Jealife, tous droits reservés </span>
                     <div className="social">
