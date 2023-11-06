@@ -2,10 +2,12 @@ import React from "react";
 import './main.css'
 import './sections.css'
 import { Link } from 'react-scroll';
+import Services from "../Services/Services";
+import Work from "../work/Work";
 
 
 
-export function Section() {
+export function Sections() {
     return (
         <section className="section">
             <div className='about-section' id="about">
@@ -40,13 +42,13 @@ export function Section() {
                 </article>
             </div>
             <article className='services-section' id="services">
-                <h1>Services</h1>
+                <Services/>
             </article>
             <article className='work-section' id="work">
-                <h1>Réalistaions</h1>
+                <Work/>
             </article>
             <article className='contact-section' id="contact">
-                <h1>Contact</h1>
+                
             </article>
         </section>
     )

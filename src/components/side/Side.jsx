@@ -1,6 +1,5 @@
 import React from 'react'
 import './side.css'
-// import {imageSide} from '../../assets/images/JEALIFE_Pictures.jpg'
 
 function Side() {
     return (
@@ -18,7 +17,7 @@ function Side() {
                     </div>
                 </div>
                 <div className="bottom-side">
-                    <a href="#" className="cv-download">Voir mon CV</a>
+                    <a href="../../assets/docs/cv.pdf" download className="cv-download">Voir mon CV</a>
                 </div>
         </div>
     )

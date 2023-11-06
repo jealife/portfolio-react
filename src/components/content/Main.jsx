@@ -1,7 +1,7 @@
 import React from 'react'
-import Side from './Side'
 import './main.css'
-import { Section } from './Section'
+import { Sections } from './Sections'
+import Side from '../side/Side'
 
 
 
@@ -11,7 +11,7 @@ function Main() {
            <aside>
                 <Side/>
            </aside>
-            <Section/>
+            <Sections/>
         </section>
     )
 }
