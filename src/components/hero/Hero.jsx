@@ -1,6 +1,5 @@
 import React from "react";
 import './hero.css'
-import 'boxicons'
 
 
 function Hero() {

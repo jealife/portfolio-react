@@ -2,7 +2,8 @@ import React from "react";
 import './main.css'
 import './sections.css'
 import { Link } from 'react-scroll';
-import Services from "../Services/Services";
+import Services from "../services/Services";
+import Contact from "../contact/Contact";
 import Work from "../work/Work";
 
 
@@ -48,7 +49,7 @@ export function Sections() {
                 <Work/>
             </article>
             <article className='contact-section' id="contact">
-                
+                <Contact/>
             </article>
         </section>
     )
