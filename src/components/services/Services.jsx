@@ -3,8 +3,8 @@ import React from 'react'
 export default function Services() {
     return (
         <div>
-            <div className="service w-full flex flex-col gap-5 lg:pt-24 pt-5">
-                <h2 className="font-bold text-gray-800 text-left text-3xl pb-9">
+            <div className="service w-full flex flex-col gap-5 lg:pt-24 pt-2">
+                <h2 className="font-bold text-gray-800 text-left text-4xl pb-9">
                     Services
                 </h2>
                 <div className="services-cards grid lg:grid-cols-3 grid-cols-1 gap-3">
