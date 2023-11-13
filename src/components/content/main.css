@@ -1,11 +1,3 @@
-#grid-main{
-    display: flex;
-    align-items: start;
-    justify-content: flex-start;
-    gap:0.5rem;
-    max-width: 1300px;
-}
-
 aside{
     position: sticky;
     position: -mos-sticky;
