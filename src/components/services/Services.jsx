@@ -3,7 +3,7 @@ import React from 'react'
 export default function Services() {
     return (
         <div>
-            <div className="service w-full flex flex-col gap-5 pt-24">
+            <div className="service w-full flex flex-col gap-5 lg:pt-24 pt-9">
                 <h2 className="font-bold text-gray-800 text-left text-3xl">
                     Services
                 </h2>
