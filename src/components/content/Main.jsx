@@ -7,7 +7,7 @@ import Side from '../side/Side'
 
 function Main() {
     return (
-        <section  id='grid-main'>
+        <section className='flex lg:flex-row flex-col-reverse  max-w-[1300px]'>
            <aside>
                 <Side/>
            </aside>
