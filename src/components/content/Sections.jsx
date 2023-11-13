@@ -15,7 +15,7 @@ export function Sections() {
                 <article class="section-about container grid px-2" id="about" >
                     <div class="section-about-left">
                         <h3>Photographe -Dévéloppeur web</h3>
-                        <h2 class="section-about-title"> A propos de moi</h2>
+                        <h2 class="font-bold text-gray-800 text-left text-4xl pb-9"> A propos de moi</h2>
                         <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg"
                             alt="Jean Guylane Memiaghe" />
 
