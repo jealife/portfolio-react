@@ -37,7 +37,7 @@ aside{
     padding:2rem;
     width: 100%;
     display: grid;
-    place-content: center;
+    /* place-content: center; */
     min-height: 80vh;
     min-height: 80dvh;
 }
