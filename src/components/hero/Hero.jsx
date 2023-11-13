@@ -18,7 +18,7 @@ function Hero() {
           </div>
 
           <div className="bottom-cv lg:hidden mt-2">
-            <a className="" href="../../assets/docs/cv.pdf" download >Voir mon CV</a>
+            <a  href="cv.pdf" download >Voir mon CV</a>
           </div>
         </div>
 

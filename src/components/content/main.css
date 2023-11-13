@@ -32,7 +32,7 @@ aside{
     margin-bottom: 70px;
 }
 .section >article{
-    background-color: #111928;
+    /* background-color: #111928; */
     border-radius: 20px;
     padding:2rem;
     width: 100%;
