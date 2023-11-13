@@ -46,11 +46,6 @@ aside{
         padding: 0px;
         display: flex;
     }
-    #grid-main{
-        flex-direction: column-reverse;
-        padding: 2.5rem 0 1rem;
-        gap: 0px;
-    }
     .section{
         padding: 0  1rem ;
         width: 100vw;
