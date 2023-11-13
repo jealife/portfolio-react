@@ -23,18 +23,15 @@ aside{
 
 .section{
     flex: 2;
-    font-size: calc(10px + 2vmin);
     display: grid;
     grid-template-columns: 1, 1fr;
     gap: 50px;
     width:70vw;
-    padding: 0 1rem 3rem;
     margin-bottom: 70px;
 }
 .section >article{
     /* background-color: #111928; */
     border-radius: 20px;
-    padding:2rem;
     width: 100%;
     display: grid;
     place-content: center;
