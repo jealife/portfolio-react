@@ -28,7 +28,7 @@ export function Sections() {
                     <div className="section-about-right">
                         <p>
                             Je suis Jean Guylane, développeur web et mobile avec 3 ans d'expérience et passionné de
-                            photographie. J'aime créer des interfaces interactives en utilisant les nouvelle technologies Front End.  Mon objectif est de combiner mes compétences en développement
+                            photographie. J'aime créer des interfaces interactives en utilisant les nouvelles technologies Front End.  Mon objectif est de combiner mes compétences en développement
                             et ma passion pour la photographie pour créer des projets uniques. Contactez-moi pour discuter de
                             collaborations passionnantes.
                         </p>
