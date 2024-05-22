@@ -10,15 +10,14 @@ import Work from "../work/Work";
 
 export function Sections() {
     return (
-        <section className="section">
+        <section className="section px-4">
             <div className='about-section' id="about">
-                <article class="section-about container grid px-2" id="about" >
+                <article class="section-about container grid " id="about" >
                     <div class="section-about-left">
                         <h3>Photographe -Dévéloppeur web</h3>
                         <h2 class="font-bold text-gray-800 text-left text-4xl pb-9"> A propos de moi</h2>
                         <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg"
                             alt="Jean Guylane Memiaghe" />
-
                         <div className="skills ">
                             <box-icon type='logo' color='#ff6d00' size="md" name='react'></box-icon>
                             <box-icon type='logo' color='#ff6d00' size="md" name='html5'></box-icon>
@@ -29,7 +28,7 @@ export function Sections() {
                     <div className="section-about-right">
                         <p>
                             Je suis Jean Guylane, développeur web et mobile avec 3 ans d'expérience et passionné de
-                            photographie. J'aime créer des interfaces interactives en utilisant HTML, CSS, JavaScript  Mon objectif est de combiner mes compétences en développement
+                            photographie. J'aime créer des interfaces interactives en utilisant les nouvelle technologies Front End.  Mon objectif est de combiner mes compétences en développement
                             et ma passion pour la photographie pour créer des projets uniques. Contactez-moi pour discuter de
                             collaborations passionnantes.
                         </p>
