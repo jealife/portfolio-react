@@ -60,12 +60,7 @@
 
 }
 
-.socilal {
-    margin-top: .5rem;
-    display: flex;
-    gap: .5rem;
-    justify-content: center;
-}
+
 .bottom-cv a{
     text-decoration:none;
     padding: .5rem 1.5rem;

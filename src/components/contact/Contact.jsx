@@ -1,4 +1,5 @@
 import React from "react";
+import Socials from "../socials/Socials";
 
 export default function Contact() {
   return (
@@ -10,7 +11,7 @@ export default function Contact() {
       </div>
       <form
         action="https://submit-form.com/FeSKleb8b"
-        className="flex flex-col gap-2 w-full max-w-lg "
+        className="flex flex-col gap-3 w-full max-w-lg "
       >
         <input
           type="hidden"
@@ -50,6 +51,10 @@ export default function Contact() {
           Envoyer
         </button>
       </form>
+      <hr
+            class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
+
+      <Socials/>
     </div>
   );
 }
