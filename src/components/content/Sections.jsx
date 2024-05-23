@@ -48,7 +48,7 @@ export function Sections() {
             <article className='work-section' id="work">
                 <Work/>
             </article>
-            <article className='contact-section' id="contact">
+            <article className='contact-section w-full' id="contact" >
                 <Contact/>
             </article>
         </section>
