@@ -12,7 +12,7 @@ export function Sections() {
     return (
         <section className="section px-4">
             <div className='about-section' id="about">
-                <article class="section-about container grid " id="about" >
+                <article class="section-about container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 " id="about" >
                     <div class="section-about-left">
                         <h3>Photographe -Dévéloppeur web</h3>
                         <h2 class="font-bold text-gray-800 text-left text-4xl pb-9"> A propos de moi</h2>

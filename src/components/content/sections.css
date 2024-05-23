@@ -4,7 +4,6 @@
   width: 100%;
   min-height: 86vh;
   min-height: 86dvh;
-  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
 }
@@ -78,7 +77,6 @@
     display: none;
   }
   .section-about {
-    grid-template-columns: repeat(1, 1fr);
     text-align: center;
     width: 100%;
   }
