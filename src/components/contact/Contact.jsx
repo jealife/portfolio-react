@@ -43,7 +43,12 @@ export default function Contact() {
           required
           className="w-full p-3 rounded-md text-[#171f2f] "
         ></textarea>
-        <button type="submit" className="mt-4 bg-[#ff6d00] rounded-lg text-slate-50 py-2 px-4   ">Send</button>
+        <button
+          type="submit"
+          className="mt-4 bg-[#ff6d00] rounded-lg text-slate-50 py-2 px-4   "
+        >
+          Envoyer
+        </button>
       </form>
     </div>
   );
