@@ -20,9 +20,8 @@ export default function Services() {
                                 <h3 className='text-gray-200 text-xl font-semibold'>Developpment web</h3>
                             </div>
                             <div className="card-description">
-                                <p className='text-gray-400 text-lg font-light'>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, inventore.
-                                </p>
+                                <p className='text-gray-400 text-lg font-light line-clamp-4 text-balance'>
+                                    Du design à la mise en ligne, je crée des sites web qui répondent à vos besoins et vos objectifs commerciaux.                                </p>
                             </div>
                         </div>
                     </div>
@@ -39,9 +38,8 @@ export default function Services() {
                                 <h3 className='text-gray-200 text-xl font-semibold'>Photographie</h3>
                             </div>
                             <div className="card-description">
-                                <p className='text-gray-400 text-lg font-light'>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, inventore.
-                                </p>
+                                <p className='text-gray-400 text-lg font-light line-clamp-4 text-balance'>
+                                    Je capture des images qui mettent en valeur votre marque, vos produits ou vos services ou vous tout simplement.                                </p>
                             </div>
                         </div>
                     </div>
@@ -57,9 +55,8 @@ export default function Services() {
                                 <h3 className='text-gray-200 text-xl font-semibold'>Conception graphiques</h3>
                             </div>
                             <div className="card-description">
-                                <p className='text-gray-400 text-lg font-light'>
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, inventore.
-                                </p>
+                                <p className='text-gray-400 text-lg font-light line-clamp-4 text-balance'>
+                                    Je crée des identités visuelle pour votre marque, des infographie et des support marketng.                                </p>
                             </div>
                         </div>
                     </div>
