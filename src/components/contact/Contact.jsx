@@ -4,7 +4,7 @@ import Socials from "../socials/Socials";
 export default function Contact() {
   return (
     <div className="bg-[#111928] w-full h-auto py-14 flex flex-col items-center justify-center px-8 rounded-lg ">
-      <div className="text-slate-50 text-left  py-5 max-w-lg w-full">
+      {/* <div className="text-slate-50 text-left  py-5 max-w-lg w-full">
         <h2 className="font-bold text-gray-50 text-left text-4xl pb-9">
           Contatcez moi
         </h2>
@@ -50,9 +50,12 @@ export default function Contact() {
         >
           Envoyer
         </button>
-      </form>
+      </form> */}
       <hr class="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
-      <Socials />
+      
+      {/* <Socials /> */}
+      <div class="visme_d" data-title="Contact Me Portfolio" data-url="w467p4oz-contact-me-portfolio" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="69710"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
     </div>
   );
 }
