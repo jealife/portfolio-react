@@ -3,7 +3,15 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="bg-[#111928] w-full h-full p-4 rounded-lg">
-      <form action="https://submit-form.com/FeSKleb8b" className="flex flex-col gap-2 w-ful">
+      <form
+        action="https://submit-form.com/FeSKleb8b"
+        className="flex flex-col gap-2 w-ful"
+      >
+        <input
+          type="hidden"
+          name="_redirect"
+          value="portfolio-react-jean.vercel.app"
+        />
         <label for="name">Nom</label>
         <input
           type="text"
