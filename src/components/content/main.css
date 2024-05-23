@@ -18,17 +18,17 @@ aside{
     display: grid;
     grid-template-columns: 1, 1fr;
     gap: 50px;
-    width:70vw;
+    /* width:70vw; */
     margin-bottom: 70px;
 }
 .section >article{
     /* background-color: #111928; */
     border-radius: 20px;
     width: 100%;
-    display: grid;
+    /* display: grid;
     place-content: center;
     min-height: 80vh;
-    min-height: 80dvh;
+    min-height: 80dvh; */
 }
 @media (max-width: 768px){
     aside{

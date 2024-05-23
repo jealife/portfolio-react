@@ -42,13 +42,13 @@ export function Sections() {
 
                 </article>
             </div>
-            <article className='services-section' id="services">
+            <article className='services-section min-h-screen' id="services">
                 <Services/>
             </article>
-            <article className='work-section' id="work">
+            <article className='work-section grid place-content-center' id="work">
                 <Work/>
             </article>
-            <article className='contact-section w-full' id="contact" >
+            <article className='contact-section min-h-screen w-full flex items-center justify-center' id="contact" >
                 <Contact/>
             </article>
         </section>

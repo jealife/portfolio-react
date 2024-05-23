@@ -7,7 +7,7 @@ export default function Services() {
                 <h2 className="font-bold text-gray-800 text-left text-4xl pb-9">
                     Services
                 </h2>
-                <div className="services-cards grid lg:grid-cols-3 grid-cols-1 gap-3">
+                <div className="services-cards grid lg:grid-cols-3 md:grid-cols-3 w-full grid-cols-1 gap-3">
 
                     <div className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">
 
