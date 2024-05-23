@@ -3,7 +3,7 @@ import Socials from "../socials/Socials";
 
 export default function Contact() {
   return (
-    <div className="bg-[#111928] w-full h-auto py-14 flex flex-col items-center justify-center px-8 rounded-lg ">
+    <div className="bg-[#111928] w-full h-auto py-10 flex flex-col items-center justify-center px-8 rounded-3xl ">
       <div className="text-slate-50 text-left  py-5 max-w-lg w-full">
         <h2 className="font-bold text-gray-50 text-left text-4xl ">
           Contatcez moi

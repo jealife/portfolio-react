@@ -3,7 +3,7 @@ import React from 'react'
 export default function Services() {
     return (
         <div>
-            <div className="service w-full flex flex-col gap-5 lg:pt-24 pt-2">
+            <div className="service w-full flex justify-center h-full flex-col gap-5 lg:pt-24 pt-2">
                 <h2 className="font-bold text-gray-800 text-left text-4xl pb-9">
                     Services
                 </h2>
@@ -27,7 +27,7 @@ export default function Services() {
                     </div>
 
 
-                    <div className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">
+                    <article className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">
 
                         <div className="icon">
                             <box-icon type='solid' name='camera' size='md' color="#ff6d00"></box-icon>
@@ -42,9 +42,9 @@ export default function Services() {
                                     Je capture des images qui mettent en valeur votre marque, vos produits ou vos services ou vous tout simplement.                                </p>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">
+                    <article className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">
 
                         <div className="icon">
                             <box-icon name='vector' type='solid' color="#ff6d00" size="md" ></box-icon>
@@ -59,7 +59,7 @@ export default function Services() {
                                     Je crée des identités visuelle pour votre marque, des infographie et des support marketng.                                </p>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
 
 
