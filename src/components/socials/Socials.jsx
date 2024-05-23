@@ -1,16 +1,16 @@
 import React from "react";
-import './social.css'
 
 
 export default function Socials() {
   return (
-    <div className="socilal">
+    <div className="w-full  flex gap-3 ">
       <a
         href="https://github.com/jealife"
         target="_blank"
         rel="noopener noreferrer"
       >
         <box-icon
+          size="md"
           type="logo"
           color="#ffffff"
           name="github"
@@ -23,6 +23,7 @@ export default function Socials() {
         rel="noopener noreferrer"
       >
         <box-icon
+          size="md"
           name="instagram"
           type="logo"
           color="#ffffff"
@@ -35,6 +36,7 @@ export default function Socials() {
         rel="noopener noreferrer"
       >
         <box-icon
+          size="md"
           name="envelope"
           color="#ffffff"
           animation="spin-hover"

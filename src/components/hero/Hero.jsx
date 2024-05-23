@@ -11,11 +11,13 @@ function Hero() {
           <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg" width="180px" alt="Jean Guylane Memiaghe" title="JEaLiFe" />
           <h1 className="font-bold">Jean Guylane</h1>
           <span>Developpeur Front End / Photographe</span>
+          <div className="flex items-center">
 
-          <Socials/>
+            <Socials />
+          </div>
 
           <div className="bottom-cv lg:hidden mt-2">
-            <a  href="cv.pdf" download >Voir mon CV</a>
+            <a href="cv.pdf" download >Voir mon CV</a>
           </div>
         </div>
 
