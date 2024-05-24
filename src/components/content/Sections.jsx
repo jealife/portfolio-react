@@ -6,6 +6,7 @@ import Services from "../services/Services";
 import Contact from "../contact/Contact";
 import Work from "../work/Work";
 import Testimonials from "../testimonials/Testimonials";
+import TelegramForm from "../contact/TelegramForm";
 
 
 
@@ -51,7 +52,8 @@ export function Sections() {
             </article>
             <Testimonials/>
             <article className='contact-section min-h-screen w-full flex flex-col items-center justify-center' id="contact" >
-                <Contact/>
+                {/* <Contact/> */}
+                <TelegramForm/>
             </article>
         </section>
     )
