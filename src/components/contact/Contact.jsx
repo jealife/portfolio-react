@@ -3,15 +3,15 @@ import Socials from "../socials/Socials";
 
 export default function Contact() {
   return (
-    <div className="bg-[#111928] w-full h-auto py-10 flex flex-col items-center justify-center px-8 rounded-3xl ">
-      <div className="text-slate-50 text-left  py-5 max-w-lg w-full">
-        <h2 className="font-bold text-gray-50 text-left text-4xl ">
+    <div className="bg-[#111928] py-10 sm:py-16 lg:py-24 rounded-3xl w-full ">
+      <div className="text-slate-50  py-5 max-w-xl mx-auto text-center">
+        <h2 className=" text-gray-50 text-3xl font-bold leading-tight  sm:text-4xl lg:text-5xl">
           Contatcez moi
         </h2>
       </div>
       <form
         action="https://submit-form.com/FeSKleb8b"
-        className="flex flex-col gap-3 w-full max-w-lg "
+        className="grid gap-2 px-4 mx-auto max-w-xl sm:px-6 lg:px-8"
       >
         <input
           type="hidden"

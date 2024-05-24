@@ -4,9 +4,12 @@ export default function Services() {
     return (
         <div>
             <div className="service w-full flex justify-center h-full flex-col gap-5 lg:pt-24 pt-2">
-                <h2 className="font-bold text-gray-800 text-left text-4xl pb-9">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 className="font-bold text-center text-gray-800 text-3xl leading-tight  sm:text-4xl lg:text-5xl">
                     Services
                 </h2>
+                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                </div>
                 <div className="services-cards grid lg:grid-cols-3 md:grid-cols-3 w-full grid-cols-1 gap-3">
 
                     <div className="card-service bg-[#111928] p-6 rounded-md  flex flex-col gap-2">

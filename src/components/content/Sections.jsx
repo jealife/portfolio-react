@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 import Services from "../services/Services";
 import Contact from "../contact/Contact";
 import Work from "../work/Work";
+import Testimonials from "../testimonials/Testimonials";
 
 
 
@@ -51,6 +52,7 @@ export function Sections() {
             <article className='contact-section min-h-screen w-full flex flex-col items-center justify-center' id="contact" >
                 <Contact/>
             </article>
+            <Testimonials/>
         </section>
     )
 }

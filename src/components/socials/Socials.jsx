@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Socials() {
   return (
-    <div className="w-full  flex gap-3 ">
+    <div className="w-full  flex items-center justify-center gap-3 ">
       <a
         href="https://github.com/jealife"
         target="_blank"
