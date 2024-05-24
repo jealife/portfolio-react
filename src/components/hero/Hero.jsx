@@ -8,7 +8,7 @@ function Hero() {
     <section className="hero-portfolio" id="hero">
       <div className="hero-container">
         <div className="card-hero">
-          <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg" width="180px" alt="Jean Guylane Memiaghe" title="JEaLiFe" />
+          <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg" width="180px" alt="Jean Guylane Memiaghe" title="Jean Guylane Memiaghe" />
           <h1 className="font-bold">Jean Guylane</h1>
           <span>Developpeur Front End / Photographe</span>
           <div className="flex items-center">
