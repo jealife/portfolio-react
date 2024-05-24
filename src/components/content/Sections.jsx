@@ -11,7 +11,7 @@ import Testimonials from "../testimonials/Testimonials";
 
 export function Sections() {
     return (
-        <section className="section px-4">
+        <section className="section lg:px-5 px-3 ">
             <div className='about-section' id="about">
                 <article class="section-about container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 " id="about" >
                     <div class="section-about-left">
