@@ -49,10 +49,10 @@ export function Sections() {
             <article className='work-section grid place-content-center' id="work">
                 <Work/>
             </article>
+            <Testimonials/>
             <article className='contact-section min-h-screen w-full flex flex-col items-center justify-center' id="contact" >
                 <Contact/>
             </article>
-            <Testimonials/>
         </section>
     )
 }
