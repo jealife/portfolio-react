@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const TelegramForm = () => {
   const [name, setName] = useState('');
@@ -14,8 +17,15 @@ const TelegramForm = () => {
       message,
     };
 
-    // Remplacer 'YOUR_BOT_TOKEN' par le jeton de votre bot Telegram
-    const url = `https://api.telegram.org/6351511365:AAFqpLA_eGvu6eCrA5a1xufGxAlEyhpYFDs/sendMessage`;
+    const botToken = process.env.BOT_TOKEN;
+    const chatId = process.env.CHAT_ID;
+
+    if (!botToken || !chatId) {
+      console.error('Les variables d\'environnement BOT_TOKEN et CHAT_ID sont requises.');
+      return;
+    }
+
+    const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     const options = {
       method: 'POST',
@@ -23,7 +33,7 @@ const TelegramForm = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        chat_id: '1402636953', // Remplacer 'YOUR_CHAT_ID' par l'ID de votre chat Telegram
+        chat_id: chatId,
         text: `Nom: ${data.name}\nEmail: ${data.email}\nMessage: ${data.message}`,
       }),
     };
