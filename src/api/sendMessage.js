@@ -2,7 +2,7 @@
 require('dotenv').config();
 
 // Function to send a message to a Telegram channel
-async function sendTelegramMessage(token, channel, message) {
+export async function sendTelegramMessage(token, channel, message) {
     try {
         // Construct the Telegram API endpoint for sending a message
         const request = await fetch(`https://api.telegram.org/${token}/sendMessage?chat_id=${channel}&text=${message}`, {

@@ -5,8 +5,6 @@ import { Link } from 'react-scroll';
 import Services from "../services/Services";
 import Contact from "../contact/Contact";
 import Work from "../work/Work";
-import Testimonials from "../testimonials/Testimonials";
-import TelegramForm from "../contact/TelegramForm";
 
 
 
