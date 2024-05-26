@@ -1,5 +1,5 @@
 // Load environment variables from a .env file into process.env
-require('../../.env').config();
+require('dotenv').config();
 
 // Function to send a message to a Telegram channel
 async function sendTelegramMessage(token, channel, message) {
@@ -24,5 +24,5 @@ async function sendTelegramMessage(token, channel, message) {
 // Immediately-invoked function expression (IIFE) to test the sendTelegramMessage function
 (async () => {
     // Call the sendTelegramMessage function with parameters from environment variables
-    sendTelegramMessage(process.env.TOKEN, process.env.CHANNEL, 'This is a test message with @codingWithAdo');
+    sendTelegramMessage(process.env.BOT_TOKEN, process.env.CHAT_ID, 'This is a test message with @codingWithAdo');
 })();

@@ -8,7 +8,7 @@ export default function Services() {
                 <h2 className="font-bold text-center text-gray-800 text-3xl leading-tight  sm:text-4xl lg:text-5xl">
                     Services
                 </h2>
-                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600 px-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
                 </div>
                 <div className="services-cards grid lg:grid-cols-3 md:grid-cols-3 w-full grid-cols-1 gap-3">
 

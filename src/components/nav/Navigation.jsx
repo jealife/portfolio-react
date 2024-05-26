@@ -21,16 +21,16 @@ class Navigation extends Component {
             <Link className="nav-link" activeClass="active" to="hero" spy={true} smooth={true} offset={-70} duration={500}>
               Accueil
             </Link>
-            <Link className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-250} duration={500}>
               A propos
             </Link>
-            <Link className="nav-link" activeClass="active" to="services" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link className="nav-link" activeClass="active" to="services" spy={true} smooth={true} offset={-100} duration={500}>
               Services
             </Link>
-            <Link className="nav-link" activeClass="active" to="work" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link className="nav-link" activeClass="active" to="work" spy={true} smooth={true} offset={-250} duration={500}>
               Réalisations
             </Link>
-            <Link className="btn-link btn-menu" to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+            <Link className="btn-link btn-menu" to="contact" spy={true} smooth={true} offset={-60} duration={500}>
               Contact
             </Link>
           </div>

@@ -1,12 +1,5 @@
 /* ----------------    --- SECTION ABOUT---   ----------------- */
-.section-about {
-  padding: 1rem 0.2rem;
-  width: 100%;
-  min-height: 86vh;
-  min-height: 86dvh;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .section-about-left h3 {
   font-size: 0.813rem;
@@ -24,7 +17,8 @@
   margin-bottom: 2rem;
   width: 160px;
   clip-path: circle();
-  box-shadow: #9c9a9ab6 15px 15px 15px, #ececec -15px -15px 15px;
+  box-shadow: 20px 20px 60px #0e1522,
+  -20px -20px 60px #141d2e;
 }
 
 .content h2 {
@@ -42,7 +36,9 @@
   font-size: 35px;
   color: #808080;
   border-radius: 4px;
-  box-shadow: #c4c3c3b6 9px 9px 15px, #ececec -9px -9px 15px;
+  background: #111928;
+  box-shadow:  -20px -20px 60px #0e1522,
+               20px 20px 60px #141d2e;
 }
 
 .section-about-right {
@@ -54,7 +50,6 @@
 
 .section-about-right p {
   font-size: 1.2rem;
-  color: #808080;
 }
 .btn-about .btn-link {
   font-size: 0.8rem;
@@ -73,9 +68,7 @@
 /* ========== responsive ======= */
 
 @media screen and (max-width: 600px) {
-  .btn-about .btn-link {
-    display: none;
-  }
+ 
   .section-about {
     text-align: center;
     width: 100%;
