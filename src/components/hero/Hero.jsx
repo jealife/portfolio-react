@@ -5,7 +5,7 @@ import Socials from "../socials/Socials";
 
 function Hero() {
   return (
-    <section className="hero-portfolio" id="hero">
+    <section className="hero-portfolio z-10" id="hero">
       <div className="hero-container">
         <div className="card-hero">
           <img src="https://jealife-portfolio.vercel.app/assets/images/JEaLiFe%C2%B7.jpg" width="180px" alt="Jean Guylane Memiaghe" title="Jean Guylane Memiaghe" />

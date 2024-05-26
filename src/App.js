@@ -6,7 +6,7 @@ import Hero from "./components/hero/Hero";
 function App() {
   return (
     <div className="App">
-      <main className="bg-[#ecf0f3] text-slate-50 flex flex-col items-center gap-12">
+      <main className="bg-[#ecf0f3] text-slate-50 flex flex-col items-center">
           <Hero/>
           <Main/>
       </main>
