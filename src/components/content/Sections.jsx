@@ -12,7 +12,7 @@ import TelegramForm from "../contact/TelegramForm";
 
 export function Sections() {
     return (
-        <section className="section lg:px-5  gap-10  px-2 ">
+        <section className="section lg:px-5  gap-10">
             <div className='about-section flex flex-col items-center justify-center w-full lg:mt-52 ' id="about">
                 <article class="section-about container grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 bg-[#111928] lg:px-10 px-6 py-14 rounded-3xl w-full " >
                     <div class="section-about-left">
@@ -44,14 +44,14 @@ export function Sections() {
 
                 </article>
             </div>
-            <article className='services-section min-h-screen' id="services">
+            <article className='services-section min-h-screen px-2' id="services">
                 <Services/>
             </article>
             <article className='work-section grid place-content-center' id="work">
                 <Work/>
             </article>
             {/* <Testimonials/> */}
-            <article className='contact-section min-h-screen w-full flex flex-col items-center justify-center' id="contact" >
+            <article className='contact-section min-h-screen w-full flex flex-col items-center justify-center px-2' id="contact" >
                 <Contact/>
                 {/* <TelegramForm/> */}
             </article>
